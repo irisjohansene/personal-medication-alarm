@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.vercel/
+.pnpm-store/
+android/.gradle/
+android/build/
+ios/DerivedData/
