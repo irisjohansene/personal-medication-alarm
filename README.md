@@ -41,9 +41,12 @@ Android development needs Android Studio and the Android SDK. iOS builds require
 
 ## MVP scope
 
-- Add a medication name, strength, form, category, daily reminder times, course dates, and optional personal note.
+- Register a personal profile with name, sex, birthday, nationality, status, contact number, home address, and email address.
+- Add and edit diagnoses, then associate medications with an optional diagnosis.
+- Add a medication name, amount/strength, form, medication type, dosage frequency, daily alarm times, course dates, date-specific reminders, and optional instructions.
 - Review today's schedule, log a dose as taken or skipped, and see recent dose history.
-- Keep user data on-device by default.
+- Choose light, dark, or system theme. Keyboard focus indicators, a skip link, labeled controls, and reduced-motion preferences support accessible use.
+- Keep profile, diagnoses, medication, and dose data in this browser/device by default. Local storage is not encrypted or synced. The interface is designed with accessibility in mind; it is not a claim of formal ADA or WCAG certification.
 
 ## Later before public release
 
